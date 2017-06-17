@@ -12,5 +12,5 @@ urlpatterns = [
     # ex : /api/get_guest_list/
     url(r'^get_guest_list/', viewif.get_guest_list, name='get_guest_list'),
     #  ex : /api/user_sign/
-    #url(r'^user_sign/', views_if.user_sign, name='user_sign'),
+    url(r'^user_sign/', viewif.user_sign, name='user_sign'),
 ]
